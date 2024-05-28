@@ -1,0 +1,91 @@
+:root{
+    --main-color:#ff2332;
+    --primary-color:#ff662d;
+    --dark-color: #37383c;
+    --darklight-color:#3a3b3f;
+    --nav-color: rgb(19, 19, 19);
+  
+  }
+  
+  *{
+  margin: 0;
+  padding: 0;
+  }
+
+  h1,h5,p{
+    margin-bottom: 0 !important;
+  }
+
+.plan{
+    background: var(--dark-color);
+    color: #fff;
+    text-align: center;
+  }
+  .plan_col1{
+    padding: 2rem 0.5rem;
+    background: #464646;
+    margin: 1rem;
+    border-radius: 20px;
+  }
+  .plan_col1:hover{
+   transform: scale(1.05);
+   transition: 0.3s linear;
+   cursor:pointer;
+  }
+  .plan_col2{
+    
+    background: var(--primary-color);
+  
+  }
+  .plan_col1 img{
+    width: 12%;
+    padding-right: 1.8rem;
+    margin-left: 6rem;
+    position: relative;
+    top: 1.5rem;
+  }
+  .plan_details p{
+    padding: 0.6rem 0;
+  }
+  .plan_col1 h5{
+    font-weight: 400;
+    letter-spacing: 0.8px;
+  }
+  .plan_col1 h1{
+    font-size: 3rem;
+    
+  }
+  .plan_col1 span{
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  .btn_plan{
+    border-radius: 50px;
+    border:1px solid #fff;
+    padding: 0.7rem 2rem;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    margin-left: 15px;
+  }
+  .btn_choose{
+    border-radius: 50px;
+    border:0;
+    padding: 0.7rem 2rem;
+    background-color: white;
+    color:var(--primary-color);
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    margin-left: 15px;
+    margin-top: 2rem;
+  }
+  .btn_choose:hover{
+    transform: scale(1.05);
+    transition: 0.3s linear;
+  }
+  .btn_plan:hover{
+    transform: scale(1.05);
+    transition: 0.3s linear;
+    background-color: var(--primary-color);
+  }
